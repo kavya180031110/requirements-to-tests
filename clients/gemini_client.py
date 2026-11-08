@@ -14,7 +14,5 @@ client = genai.Client(api_key=key)
 
 # Generate response by sending the prompt to AI client
 def generate_response(prompt):
-    print("Step 1")
     response = client.models.generate_content(model = "gemini-3.5-flash-lite", contents = prompt)
-    print("Step 2")
     return response.text

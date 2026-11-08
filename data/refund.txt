@@ -1,0 +1,5 @@
+When a user cancels a confirmed ticket, they get a refund based on how early they cancel.
+If they cancel early, they get 75% back. If they cancel late, they get 50%.
+If they cancel very late, there is no refund. Cancelled seats go to the waitlist.
+
+
