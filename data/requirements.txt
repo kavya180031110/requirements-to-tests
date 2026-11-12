@@ -1,0 +1,9 @@
+Users can transfer money to saved contacts instantly. New contacts can receive money only after 24 hours. Users can delete and re-add contacts anytime.
+
+A bus seat is confirmed once paid. Unpaid seats are released after 15 minutes. Two users cannot book the same seat.
+
+Wallet balance cannot go below zero. Auto-pay bills are deducted on the due date. Users can withdraw their full balance anytime.
+
+Each coupon can be used once per user. Coupons expire at midnight. Orders can be edited for 30 minutes after placing.
+
+Exam answers auto-save every 60 seconds. The exam ends exactly at 3 PM. Students who lose connection get 10 extra minutes.
