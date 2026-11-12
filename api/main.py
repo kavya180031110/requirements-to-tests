@@ -23,5 +23,4 @@ def health():
 def summary(body: Request):
     try:
         return {"result": summarize(body.requirement)}
-    except Exception:
-        raise HTTPException(502, "AI service failed. Please try again.")
+    except Exception as e: print("AI ERROR:", repr(e))
