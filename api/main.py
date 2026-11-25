@@ -23,4 +23,6 @@ def health():
 def summary(body: Request):
     try:
         return {"result": summarize(body.requirement)}
-    except Exception as e: print("AI ERROR:", repr(e))
+    except Exception as e: 
+        print("AI ERROR:", repr(e))
+        raise HTTPException(status_code=502, detail="AI call failed")
