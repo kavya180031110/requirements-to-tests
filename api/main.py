@@ -12,7 +12,7 @@ app.add_middleware(
     allow_headers=["Content-Type"],
 )
 
-class Request(BaseModel):
+class SummaryRequest(BaseModel):
     requirement: str
 
 @app.get("/health")
@@ -20,7 +20,7 @@ def health():
     return {"status": "ok"}
 
 @app.post("/summary")
-def summary(body: Request):
+def summary(body: ummaryRequest)
     try:
         return {"result": summarize(body.requirement)}
     except Exception as e: 
